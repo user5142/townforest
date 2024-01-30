@@ -221,7 +221,7 @@ header ul li a:hover {
     padding: 6rem 8rem 6rem 8rem;
     margin: 0 2rem;
     border-radius: 0.625rem;
-    background: linear-gradient(100deg, #ECF1EE -10.24%, #FBF9F6 95.76%);
+    background: linear-gradient(99deg, #E8EFEA -3.23%, #FDF9F3 107.12%);
 }
 
 .hero h1 span {
@@ -384,7 +384,7 @@ header ul li a:hover {
 
 .services-container {
     border-radius: 0.625rem;
-    background: linear-gradient(100deg, #ECF1EE -10.24%, #FBF9F6 95.76%);
+    background: linear-gradient(99deg, #E8EFEA -3.23%, #FDF9F3 107.12%);
     margin: 14rem 6rem;
     padding: 3rem 4rem 4rem 4rem;
 }
