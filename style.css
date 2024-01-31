@@ -38,18 +38,22 @@ h2 {
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
     color: #69696F;
     line-height: 1.4;
 }
 
 h4 {
+    font-family: 'Outfit', sans-serif;
     font-size: 1.2rem;
     color: #69696F;
     line-height: 1.4;
 }
 
 p {
+    font-family: 'Outfit', sans-serif;
     font-size: 1.15rem;
     line-height: 1.5;
     color: #69696F;
@@ -57,7 +61,7 @@ p {
 
 a {
     color: #44B9DE;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {
@@ -69,6 +73,13 @@ a:hover {
 strong {
     font-weight: bold;
 }
+
+/*.button {
+    padding: .8rem 1.5rem;
+    background-color: #235008;
+    border-radius: 10px;
+    color: white;
+}*/
 
 @media only screen and (max-width: 500px) {
     h1 {
