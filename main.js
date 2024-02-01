@@ -71,9 +71,9 @@ window.addEventListener('scroll', function () {
   const scrolled = window.scrollY;
 
   if (scrolled > 0) {
-    navbar.classList.add('shadow');
+    navbar.classList.add('nav-scroll');
   } else {
-    navbar.classList.remove('shadow');
+    navbar.classList.remove('nav-scroll');
   }
 });
 

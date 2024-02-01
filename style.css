@@ -118,17 +118,17 @@ header ul {
 }
 
 .fixed-header {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background-color: #FDFDFD;
     z-index: 999;
     transition: box-shadow 0.1s ease-in-out;
 }
 
-.shadow {
+.nav-scroll {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #FDFDFD;
 }
 
 header ul li a {
@@ -225,14 +225,18 @@ header ul li a:hover {
 
 /* Hero */
 
+.hero {
+    background: linear-gradient(99deg, #E8EFEA -3.23%, #FDF9F3 107.12%);
+}
+
 .hero-bio {
     display: flex;
     flex-flow: column;
     gap: 2rem;
-    padding: 6rem 8rem 6rem 8rem;
+    padding: 10rem 8rem 7rem 8rem;
     margin: 0 2rem;
     border-radius: 0.625rem;
-    background: linear-gradient(99deg, #E8EFEA -3.23%, #FDF9F3 107.12%);
+    /*background: linear-gradient(99deg, #E8EFEA -3.23%, #FDF9F3 107.12%);*/
 }
 
 .hero h1 span {
@@ -244,19 +248,19 @@ header ul li a:hover {
     .hero-bio {
         width: 70rem;
         margin: 0 auto;
-        padding: 8rem 10rem 8rem 10rem;
+        padding: 12rem 10rem 10rem 10rem;
     }
 }
 
 @media only screen and (max-width: 1200px) {
     .hero-bio {
-        padding: 5rem 6rem 5rem 6rem;
+        padding: 8rem 6rem 6rem 6rem;
     }
 }
 
 @media only screen and (max-width: 1000px) {
     .hero-bio {
-        padding: 4rem 3rem 4rem 3rem;
+        padding: 8rem 3rem 6rem 3rem;
         margin: 0 1rem;
     }
 
@@ -267,7 +271,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 770px) {
     .hero-bio {
-        padding: 3rem 1.5rem 3rem 1.5rem;
+        padding: 6rem 1.5rem 4rem 1.5rem;
         margin: 0;
         border-radius: 0%;
     }
