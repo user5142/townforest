@@ -357,6 +357,10 @@ header ul li a:hover {
     gap: 1rem;
 }
 
+.feature-image-logo {
+    width: 1.6rem;
+}
+
 @media only screen and (min-width: 1600px) {
     .feature-image-container {
         width: 65rem;
