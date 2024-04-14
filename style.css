@@ -77,7 +77,7 @@ strong {
 
 
 button {
-    padding: .8rem 1.5rem;
+    padding: .6rem 1.2rem;
     background-color: #26510C;
     border-radius: 10px;
     font-family: 'Outfit', sans-serif;
@@ -177,7 +177,7 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1510px) {
     header {
-        padding: 0 20rem 0 20rem;
+        padding: 0 15rem;
     }
 
     header ul {
@@ -238,9 +238,25 @@ header ul li a:hover {
     display: flex;
     flex-flow: column;
     gap: 2rem;
-    padding: 10rem 8rem 7rem 8rem;
+    padding: 10rem 0 7rem 8rem;
     border-radius: 0.625rem;
     max-width: 30rem;
+}
+
+.hero-h1 {
+    display: inline-flex;
+    flex-flow: wrap;
+}
+
+.framer-icon {
+    position: relative;
+    padding: 0 0 0 .5rem;
+}
+
+.framer-icon img {
+    position: absolute;
+    bottom: 0;
+    width: 3.5rem;
 }
 
 /*.hero h1 span {
@@ -253,7 +269,7 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1510px) {
     .hero-bio {
-        padding: 8rem 10rem 10rem 20rem;
+        padding: 8rem 0 10rem 15rem;
     }
 }
 
