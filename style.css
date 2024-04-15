@@ -259,9 +259,10 @@ header ul li a:hover {
     width: 3.5rem;
 }
 
-/*.hero h1 span {
-    background: #D1E2C74D;
-}*/
+.hero-h1 span {
+    background: linear-gradient(to top, rgba(209, 226, 199, 0.32) 32%, transparent 0%);
+}
+
 
 .hero-bio button {
     max-width: 12rem;
