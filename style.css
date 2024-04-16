@@ -260,7 +260,7 @@ header ul li a:hover {
 }
 
 .hero-h1 span {
-    background: linear-gradient(to top, rgba(209, 226, 199, 0.32) 32%, transparent 0%);
+    background: linear-gradient(to top, rgba(209, 226, 199, 0.4) 32%, transparent 0%);
 }
 
 
@@ -270,7 +270,7 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1510px) {
     .hero-bio {
-        padding: 12rem 0 12rem 15rem;
+        padding: 12.5rem 0 12.5rem 15rem;
     }
 }
 
