@@ -234,10 +234,10 @@ header ul li a:hover {
     background: #FAF8F6;
     display: flex;
     flex-flow: column;
+    /*justify-items: left;*/
     gap: 2.5rem;    
     padding: 10rem 0 0 0;
-    margin: 0 auto;
-    max-width: 44rem;
+    max-width: 32rem;
 }
 
 .hero-bio {
@@ -265,7 +265,7 @@ header ul li a:hover {
 
 /*.hero-h1 span {
     background: linear-gradient(to top, rgba(209, 226, 199, 0.4) 32%, transparent 0%);
-} */
+}*/
 
 
 .hero button {
@@ -274,7 +274,7 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1510px) {
     .hero {
-        padding: 13rem 0 0 0;
+        padding: 13rem 0 0 15rem;
     }
 }
 
