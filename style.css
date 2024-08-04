@@ -237,7 +237,7 @@ header ul li a:hover {
     justify-content: space-between;
     align-items: center;
     gap: 2.5rem;    
-    padding: 10rem 0 0 0;
+    padding: 10rem 0 15rem 0;
 }
 
 .hero-left {
@@ -275,7 +275,7 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1510px) {
     .hero {
-        padding: 12rem 15rem 0 15rem;
+        padding: 12rem 15rem 15rem 15rem;
     }
 }
 
@@ -310,6 +310,17 @@ header ul li a:hover {
 }
 
 /* Projects */
+
+.projects {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.projects-image img {
+    width: 70rem;
+    border-radius: .5rem;
+}
 
 .wrapper {
     position: relative;
