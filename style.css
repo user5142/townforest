@@ -82,7 +82,7 @@ button {
     border-radius: 10px;
     font-family: 'Outfit', sans-serif;
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 600;
     color: #FEFEFD;
 }
 
@@ -237,7 +237,7 @@ header ul li a:hover {
     justify-content: space-between;
     align-items: center;
     gap: 2.5rem;    
-    padding: 10rem 0 15rem 0;
+    padding: 8rem 0 15rem 0;
 }
 
 .hero-left {
@@ -275,7 +275,7 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1510px) {
     .hero {
-        padding: 12rem 15rem 15rem 15rem;
+        padding: 8rem 15rem 15rem 15rem;
     }
 }
 
@@ -311,90 +311,23 @@ header ul li a:hover {
 
 /* Projects */
 
+.projects-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 4rem;
+}
+
 .projects {
     display: flex;
     flex-flow: column;
     align-items: center;
+    gap: 6rem;
 }
 
 .projects-image img {
     width: 70rem;
     border-radius: .5rem;
-}
-
-.wrapper {
-    position: relative;
-    overflow: hidden;
-    padding: 0 2rem 0 0;
-}
-
-.wrapper:before,
-.wrapper:after {
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    content: "";
-    display: block;
-    width: 1.5rem;
-    height: 100%;
-}
-
-.projects-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    font-size: 0;
-    cursor: grab;
-    padding: 2rem 0rem 2rem 2rem;
-}
-
-.projects-container.active {
-    cursor: grabbing;
-}
-
-.feature-image-container {
-    display: inline-block;
-    margin-left: 1.5rem;
-    user-select: none;
-    width: 50%;
-}
-
-.feature-image-container:last-child {
-    margin-right: 1.5rem;
-}
-
-.projects-container {
-    display: flex;
-    flex-flow: row;
-    justify-content: flex-start;
-    gap: 2rem;
-    width: 100%;
-    overflow: hidden;
-}
-
-.feature-image-container {
-    display: flex;
-    flex-flow: column;
-    gap: 1.2rem;
-    width: 55rem;
-    margin: 0 auto;
-}
-
-.feature-image {
-    border-radius: 10px;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-.feature-image-title {
-    display: flex;
-    flex-flow: row;
-    align-content: center;
-    gap: 1rem;
-}
-
-.feature-image-logo {
-    width: 1.6rem;
 }
 
 @media only screen and (min-width: 1600px) {
