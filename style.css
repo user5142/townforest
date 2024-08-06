@@ -233,19 +233,21 @@ header ul li a:hover {
 .hero {
     background: #FAF8F6;
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     justify-content: space-between;
     align-items: center;
-    gap: 2.5rem;    
-    padding: 8rem 0 15rem 0;
+    gap: 6rem;    
+    padding: 8rem 15rem 6rem 15rem;
 }
 
 .hero-left {
     display: flex;
     flex-flow: column;
+    align-items: center;
+    text-align: center;
     gap: 2rem;
     min-width: 32rem;
-    max-width: 32rem;
+    max-width: 42rem;
 }
 
 .hero-bio {
@@ -254,11 +256,11 @@ header ul li a:hover {
     gap: 1rem;
 }
 
-.hero-h1 {
+/*.hero-h1 {
     display: inline-flex;
     flex-flow: wrap;
     gap: 1.2rem;
-}
+}*/
 
 .hero-h1 span {
     background: linear-gradient(to top, rgba(209, 226, 199, 0.2) 32%, transparent 0%);
@@ -269,13 +271,30 @@ header ul li a:hover {
 }
 
 .hero-image img {
-    width: 50rem;
+    width: 70rem;
     border-radius: .5rem;
+    box-shadow: 2px 2px 8px rgba(35, 35, 35, 0.1);
+    /*border: 1px solid rgb(219, 219, 219);*/
 }
 
-@media only screen and (min-width: 1510px) {
+@media only screen and (min-width: 1850px) {
     .hero {
+        flex-flow: row;
         padding: 8rem 15rem 15rem 15rem;
+    }
+
+    .hero-left {
+        display: flex;
+        flex-flow: column;
+        align-items:flex-start;
+        text-align: left;
+        gap: 2rem;
+        min-width: 32rem;
+        max-width: 32rem;
+    }
+
+    .hero-image img {
+        width: 50rem;
     }
 }
 
@@ -328,6 +347,7 @@ header ul li a:hover {
 .projects-image img {
     width: 70rem;
     border-radius: .5rem;
+    box-shadow: 2px 2px 8px rgba(35, 35, 35, 0.1);
 }
 
 @media only screen and (min-width: 1600px) {
