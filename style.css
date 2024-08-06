@@ -219,12 +219,11 @@ header ul li a:hover {
 
 @media only screen and (max-width: 770px) {
     header {
-        padding: 0 1.5rem;
-        background: #FDFDFD;
+        padding: 0 1rem;
     }
 
     #burger-links a {
-        padding: 1rem 1.5rem;
+        padding: 1rem 1rem;
     }
 }
 
@@ -236,7 +235,7 @@ header ul li a:hover {
     flex-flow: column;
     justify-content: space-between;
     align-items: center;
-    gap: 6rem;    
+    gap: 6rem;
     padding: 8rem 15rem 6rem 15rem;
 }
 
@@ -256,12 +255,6 @@ header ul li a:hover {
     gap: 1rem;
 }
 
-/*.hero-h1 {
-    display: inline-flex;
-    flex-flow: wrap;
-    gap: 1.2rem;
-}*/
-
 .hero-h1 span {
     background: linear-gradient(to top, rgba(209, 226, 199, 0.2) 32%, transparent 0%);
 }
@@ -274,7 +267,6 @@ header ul li a:hover {
     width: 70rem;
     border-radius: .5rem;
     box-shadow: 2px 2px 8px rgba(35, 35, 35, 0.1);
-    /*border: 1px solid rgb(219, 219, 219);*/
 }
 
 @media only screen and (min-width: 1850px) {
@@ -286,7 +278,7 @@ header ul li a:hover {
     .hero-left {
         display: flex;
         flex-flow: column;
-        align-items:flex-start;
+        align-items: flex-start;
         text-align: left;
         gap: 2rem;
         min-width: 32rem;
@@ -300,23 +292,23 @@ header ul li a:hover {
 
 @media only screen and (max-width: 1200px) {
     .hero {
-        padding: 8rem 0 0 0;
+        padding: 8rem 4rem 4rem 4rem;
+    }
+
+    .hero-image img {
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-    .hero {
-        padding: 8rem 0 0 0;
-    }
-
     h1 {
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
 }
 
 @media only screen and (max-width: 770px) {
     .hero {
-        padding: 8rem 2rem 0 2rem;
+        padding: 6rem 1rem 2rem 1rem;
         margin: 0;
         border-radius: 0%;
     }
@@ -324,7 +316,17 @@ header ul li a:hover {
 
 @media only screen and (max-width: 500px) {
     h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
+    }
+
+    .hero {
+        padding: 4rem 1rem 2rem 1rem;
+    }
+
+    .hero-left {
+        text-align: left;
+        align-items: start;
+        min-width: 0;
     }
 }
 
@@ -357,35 +359,26 @@ header ul li a:hover {
 }
 
 @media only screen and (max-width: 1200px) {
-    .feature-image-container {
-        display: flex;
-        flex-flow: column;
-        gap: 1.2rem;
-        width: 50rem;
-        margin: 0 auto;
+    .projects-container {
+        padding: 0 4rem;
+    }
+
+    .projects {
+        gap: 4rem;
+    }
+
+    .projects-image img {
+        width: 100%;
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 770px) {
     .projects-container {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
+        padding: 0 1rem;
+    }
+
+    .projects {
         gap: 2rem;
-        padding: 2rem 1rem;
-        width: auto;
-        pointer-events: none;
-    }
-
-    .feature-image-container {
-        display: flex;
-        flex-flow: column;
-        gap: 1.2rem;
-        width: 100%;
-    }
-
-    .wrapper {
-        padding: 0 0 0 0;
     }
 }
 
