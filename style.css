@@ -229,6 +229,31 @@ header ul li a:hover {
 
 /* Hero */
 
+.hero-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 6.5rem;
+}
+
+.hero-arrow {
+    display: none;
+    animation: bounce 3s ease-in-out infinite;
+    animation-delay: 5s;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
 .hero {
     background: #FAF8F6;
     display: flex;
@@ -270,9 +295,17 @@ header ul li a:hover {
 }
 
 @media only screen and (min-width: 1850px) {
+    .hero-container {
+        padding: 0 0 10rem 0;
+    }
+
+    .hero-arrow {
+        display: inline-block;
+    }
+
     .hero {
         flex-flow: row;
-        padding: 8rem 15rem 15rem 15rem;
+        padding: 8rem 15rem 0 15rem;
     }
 
     .hero-left {
@@ -320,7 +353,7 @@ header ul li a:hover {
     }
 
     .hero {
-        padding: 4rem 1rem 2rem 1rem;
+        padding: 6rem 1rem 2rem 1rem;
     }
 
     .hero-left {
