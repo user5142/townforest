@@ -239,7 +239,7 @@ header ul li a:hover {
 .hero-arrow {
     display: none;
     animation: bounce 3s ease-in-out infinite;
-    animation-delay: 10s;
+    animation-delay: 8s;
 }
 
 @keyframes bounce {
