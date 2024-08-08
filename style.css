@@ -261,7 +261,7 @@ header ul li a:hover {
     justify-content: space-between;
     align-items: center;
     gap: 6rem;
-    padding: 8rem 15rem 6rem 15rem;
+    padding: 6rem 15rem 6rem 15rem;
 }
 
 .hero-left {
@@ -281,7 +281,7 @@ header ul li a:hover {
 }
 
 .hero-h1 span {
-    background: linear-gradient(to top, rgba(209, 226, 199, 0.2) 32%, transparent 0%);
+    background: linear-gradient(to top, rgba(209, 226, 199, 0.3) 32%, transparent 0%);
 }
 
 .hero button {
@@ -325,7 +325,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 1200px) {
     .hero {
-        padding: 8rem 4rem 4rem 4rem;
+        padding: 6rem 4rem 4rem 4rem;
     }
 
     .hero-image img {
