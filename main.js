@@ -41,3 +41,19 @@ window.addEventListener('scroll', function () {
     navbar.classList.remove('nav-scroll');
   }
 });
+
+// Copy email to clipboard
+function copyEmail() {
+  const contactButton = document.getElementById('quote-button');
+  const email = "hatch2k3@proton.me";
+  navigator.clipboard.writeText(email).then(() => {
+    // Show notification;
+    contactButton.innerHTML = `Email copied`;
+    // Hide the notification after 3 seconds
+    setTimeout(() => {
+      contactButton.innerHTML = `Request a quote`;
+    }, 3000);
+  }).catch(err => {
+    console.error('Failed to copy: ', err);
+  });
+}
