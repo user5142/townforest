@@ -48,7 +48,7 @@ function copyEmail() {
   const email = "hatch2k3@proton.me";
   navigator.clipboard.writeText(email).then(() => {
     // Show notification;
-    contactButton.innerHTML = `Email copied`;
+    contactButton.innerHTML = `Email copied!`;
     // Hide the notification after 3 seconds
     setTimeout(() => {
       contactButton.innerHTML = `Request a quote`;
