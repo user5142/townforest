@@ -24,12 +24,6 @@ if (burgerIcon != null) {
   projectsNav.addEventListener("click", burgerMenu);
 };
 
-// Random fun facts
-const funButton = document.querySelector("#fun-button");
-if (funButton != null) {
-  funButton.addEventListener("click", randomFunFact);
-};
-
 // Nav bar drop shadow
 window.addEventListener('scroll', function () {
   const navbar = document.querySelector('.fixed-header');
