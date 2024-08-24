@@ -31,15 +31,15 @@ h1 {
 
 h2 {
     font-family: 'Outfit', sans-serif;
-    font-size: 2rem;
-    font-weight: 400;
+    font-size: 2.4rem;
+    font-weight: 500;
     color: #69696F;
     line-height: 1.1;
 }
 
 h3 {
     font-family: 'Outfit', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 400;
     color: #69696F;
     line-height: 1.4;
@@ -90,6 +90,17 @@ button:hover {
     cursor: pointer;
 }
 
+.spacer {
+    margin: 10rem 6rem 6rem 6rem;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+@media only screen and (max-width: 1200px) {
+    .spacer {
+        margin: 8rem 4rem 6rem 4rem;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     h1 {
         font-size: 2rem;
@@ -105,6 +116,10 @@ button:hover {
 
     .four-zero-four h1 {
         font-size: 5rem;
+    }
+
+    .spacer {
+        margin: 8rem 1rem 6rem 1rem;
     }
 }
 
@@ -424,8 +439,7 @@ header ul li a:hover {
 
 .services-container {
     border-radius: 0.625rem;
-    background: linear-gradient(99deg, #E8EFEA -3.23%, #FDF9F3 107.12%);
-    margin: 14rem 6rem;
+    margin: 0rem 6rem;
     padding: 3rem 4rem 4rem 4rem;
 }
 
@@ -450,7 +464,7 @@ header ul li a:hover {
     gap: 1.5rem;
 }
 
-.service-block h1 {
+.service-block h2 {
     color: #0D0D0E;
     font-weight: 500;
 }
@@ -462,7 +476,7 @@ header ul li a:hover {
 @media only screen and (min-width: 1425px) {
     .services-container {
         width: 70rem;
-        margin: 14rem auto;
+        margin: 0 auto;
     }
 }
 
