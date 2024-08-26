@@ -150,6 +150,10 @@ header ul {
     transition: box-shadow 0.1s ease-in-out;
 }
 
+.tf-logo {
+    width: 10rem;
+}
+
 .nav-scroll {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     background-color: #FAF8F6;
