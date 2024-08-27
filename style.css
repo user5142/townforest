@@ -527,7 +527,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding: 0 2rem 1rem 2rem;
+    padding: 0 2rem 1.5rem 2rem;
 }
 
 .footer-home {
@@ -542,7 +542,7 @@ footer {
 
 @media only screen and (max-width: 1000px) {
     footer {
-        padding: 0 1rem 1rem 1rem;
+        padding: 0 1rem 1.5rem 1rem;
     }
 
     .footer-home {
