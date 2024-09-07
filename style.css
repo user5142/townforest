@@ -7,7 +7,6 @@ html {
 }
 
 body {
-    /*background-color: #FAF8F6;*/
     background-color: #fcf9f7;
 }
 
@@ -25,7 +24,8 @@ h1 {
     font-family: 'Outfit', sans-serif;
     font-weight: 500;
     font-size: 3.6rem;
-    color: #26510C;
+    /*color: #26510C;*/
+    color: #1f4309;
     line-height: 1.2;
     letter-spacing: 1px;
 }
@@ -78,9 +78,13 @@ strong {
 
 
 button {
-    padding: .6rem 1.2rem;
-    background-color: #26510C;
-    border-radius: 10px;
+    all: unset;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    padding: .8rem .2rem;
+    background-color: #1f4309;
+    border-radius: 1.5rem;
     font-family: 'Outfit', sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
@@ -93,12 +97,11 @@ button:hover {
 
 .spacer {
     padding: 10rem 6rem 6rem 6rem;
-    /*border-bottom: 1px solid #cfcfcf;*/
 }
 
 @media only screen and (max-width: 1200px) {
     .spacer {
-        margin: 8rem 4rem 6rem 4rem;
+        padding: 8rem 4rem 6rem 4rem;
     }
 }
 
@@ -157,7 +160,7 @@ header ul {
 
 .nav-scroll {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    background-color: #FAF8F6;
+    background-color: #fcf9f7;
 }
 
 header ul li a {
@@ -185,7 +188,7 @@ header ul li a:hover {
 
 #burger-links {
     display: none;
-    background-color: #FAF8F6;
+    background-color: #fcf9f7;
     padding-bottom: 1rem;
 }
 
@@ -201,7 +204,7 @@ header ul li a:hover {
 
 @media only screen and (min-width: 1510px) {
     header {
-        padding: 0 15rem;
+        padding: 0 14rem;
     }
 
     header ul {
@@ -267,12 +270,19 @@ header ul li a:hover {
 }
 
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         transform: translateY(0);
     }
+
     40% {
         transform: translateY(-20px);
     }
+
     60% {
         transform: translateY(-10px);
     }
@@ -284,7 +294,7 @@ header ul li a:hover {
     flex-flow: column;
     justify-content: space-between;
     align-items: center;
-    gap: 6rem;
+    gap: 10rem;
     padding: 6rem 15rem 6rem 15rem;
 }
 
@@ -301,7 +311,7 @@ header ul li a:hover {
 .hero-bio {
     display: flex;
     flex-flow: column;
-    gap: 1rem;
+    gap: .8rem;
 }
 
 .hero-h1 span {
@@ -330,7 +340,7 @@ header ul li a:hover {
 
     .hero {
         flex-flow: row;
-        padding: 8rem 15rem 0 15rem;
+        padding: 8rem 12rem 0 12rem;
     }
 
     .hero-left {
@@ -366,7 +376,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 1000px) {
     h1 {
-        font-size: 2.4rem;
+        font-size: 2.8rem;
     }
 }
 
@@ -493,7 +503,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 1200px) {
     .services-container {
-        margin: 14rem 4rem;
+        margin: 0rem 4rem;
     }
 }
 
@@ -509,7 +519,7 @@ header ul li a:hover {
 
 @media only screen and (max-width: 1000px) {
     .services-container {
-        margin: 6rem 1rem;
+        margin: 0rem 1rem;
         padding: 2rem 3rem 4rem 3rem;
     }
 
@@ -521,7 +531,7 @@ header ul li a:hover {
 @media only screen and (max-width: 770px) {
     .services-container {
         border-radius: 0;
-        margin: 6rem 0rem;
+        margin: 0rem 0rem;
         padding: 2rem 1.5rem 4rem 1.5rem;
     }
 }
