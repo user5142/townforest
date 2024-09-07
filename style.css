@@ -7,7 +7,8 @@ html {
 }
 
 body {
-    background-color: #FAF8F6;
+    /*background-color: #FAF8F6;*/
+    background-color: #fcf9f7;
 }
 
 h3,
@@ -278,7 +279,7 @@ header ul li a:hover {
 }
 
 .hero {
-    background: #FAF8F6;
+    background: #fcf9f7;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
