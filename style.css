@@ -24,8 +24,7 @@ h1 {
     font-family: 'Outfit', sans-serif;
     font-weight: 500;
     font-size: 3.6rem;
-    /*color: #26510C;*/
-    color: #1f4309;
+    color: #26510C;
     line-height: 1.2;
     letter-spacing: 1px;
 }
@@ -83,7 +82,7 @@ button {
     cursor: pointer;
     text-align: center;
     padding: .8rem .2rem;
-    background-color: #1f4309;
+    background-color: #26510C;
     border-radius: 1.5rem;
     font-family: 'Outfit', sans-serif;
     font-size: 1.2rem;
